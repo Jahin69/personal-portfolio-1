@@ -3,6 +3,8 @@ section{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
@@ -12,7 +14,8 @@ h1{
 }
 .section-1{
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
+
 }
 .section-1 p{
     font-weight: lighter;
@@ -29,4 +32,9 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
+}
+#Top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+   
 }
